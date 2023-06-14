@@ -2,62 +2,53 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 56px;
     background-color: #343A40;
     color: white;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
+.header > div {
+    display: flex;
+    align-items: center;
+}
+
+
 .logo{
-    margin-left: 20px;
+    margin-left: 43px;
     margin-top: 12px;
     margin-bottom: 12px;
     height: 32px;
     width: 32px;
 }
 
-.chev-down{
-    position: absolute;
-    width:130px;
-    height: 20px;
-    left: 368px;
-    top: 27.5px;
+#DDArrow{
+    width:10px;
 }
 
 
 h2{
-    position: absolute;
-    width: 181px;
-    height: 24px;
-    left: 72.5px;
-    top: 12.5px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
+    margin: 16px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-    
-    
-    /* White */
-    
-    color: #FFFFFF;
-     
 }
 
-#p5{
-    margin: auto;
 
-}
-
-#maintain{
-    margin-left: 243px;
-}
-
-.maintain{
-    margin-left: 32px;
+#maintain
+{
+    margin-left: 23px;
     margin-top: 18px;
     margin-bottom: 18px;
+}
+
+.maintains{
+    background-color: rgba(114, 114, 114, 0.2);
+    height: 40px;
+    width: 135px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center
 }
 
 .payments{
@@ -73,25 +64,53 @@ h2{
     margin-bottom: 18px;
 }
 
-#search{
-    margin-left: 175px;
+h1{
+font-size: 14px;
+margin-left: 32px;
+margin-top: 18px;
+margin-bottom: 18px;
 }
 
-.search, .setup, .help{
-    margin-top: 18px;
-    margin-bottom: 18px;
-    margin-left: 24px;
-    margin-right: 24px;
+.johns{
+    margin-right: 30px;
 }
 
-.john{
-    padding: 12px;
+
+.johnsnow{
+    width: 32px;
+    height: 32px;
     border: 0px solid black;
     border-radius: 44px;
     background-color: #28A745;
     margin: 8px;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.Jn-Sn{
+    margin-left: 12px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+    font-style: roboto;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.Mp-Off{
+    margin-top: 0px;
+    margin-left: 12px;
+    font-weight: 400;
+    font-size: 11px;
+    opacity: 0.5;
+
+}
+.lh{
+    line-height: 16px;
+}
+
 
 h3{
 position: absolute;
