@@ -1,4 +1,4 @@
-.header{
+header{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -9,7 +9,7 @@
     flex-wrap: wrap;
 }
 
-.header > div {
+header > div {
     display: flex;
     align-items: center;
 }
@@ -23,7 +23,7 @@
     width: 32px;
 }
 
-#DDArrow{
+#downarrow {
     width:10px;
 }
 
@@ -35,19 +35,21 @@ h2{
 }
 
 
-#maintain
+.maintain
 {
     margin-left: 23px;
     margin-top: 18px;
     margin-bottom: 18px;
 }
 
+
+
 .maintains{
-    background-color: rgba(114, 114, 114, 0.2);
     height: 40px;
-    width: 135px;
+    width: 100px;
     border-radius: 40px;
     display: flex;
+    justify-content: space-between;
     align-items: center
 }
 
@@ -58,7 +60,7 @@ h2{
 }
 
 
-.reports{
+    .reports{
     margin-left: 32px;
     margin-top: 18px;
     margin-bottom: 18px;
@@ -71,12 +73,12 @@ margin-top: 18px;
 margin-bottom: 18px;
 }
 
-.johns{
+.topright{
     margin-right: 30px;
 }
 
 
-.johnsnow{
+.jsprofile{
     width: 32px;
     height: 32px;
     border: 0px solid black;
@@ -89,7 +91,7 @@ margin-bottom: 18px;
     justify-content: center;
 }
 
-.Jn-Sn{
+.johnsnow{
     margin-left: 12px;
     margin-bottom: 0px;
     margin-top: 12px;
@@ -99,7 +101,7 @@ margin-bottom: 18px;
     color: #FFFFFF;
 }
 
-.Mp-Off{
+.designation{
     margin-top: 0px;
     margin-left: 12px;
     font-weight: 400;
@@ -107,52 +109,40 @@ margin-bottom: 18px;
     opacity: 0.5;
 
 }
-.lh{
+.toprightdiv{
     line-height: 16px;
 }
 
 
 h3{
 position: absolute;
-left: 2%;
+left: 4.38%;
 right: 91.02%;
-top: 11.5%;
+top: 9.5%;
 bottom: 93.63%;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 800;
 font-size: 32px;
 line-height: 40px;
-/* identical to box height, or 125% */
-
-
-/* Dark Green */
-
 color: #024102;
 
 }
 
 h4{
     position: absolute;
-left: 2%;
+left: 4.38%;
 right: 82.03%;
 top: 20.96%;
 bottom: 83.44%;
 
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 font-size: 24px;
 line-height: 32px;
 width: 250px;
-/* identical to box height, or 133% */
-
-
-/* Dark Gray */
-
 color: #343A40;
-
 }
 
 .d1{
@@ -161,25 +151,22 @@ left: 4.38%;
 right: 87.66%;
 top: 47.67%;
 bottom: 59.24%;
-width: 100px;
 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 32px;
-/* identical to box height, or 160% */
-
 text-align: center;
-
-/* Dark Gray */
-
 color: #343A40;
 }
 
 
+
+
+
 .grave{
-    position: absolute;
+position: absolute;
 left: 7.11%;
 right: 90.39%;
 top: 41.75%;
@@ -189,9 +176,9 @@ bottom: 68.15%;
 
 
 .d2{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
+display: flex;
+flex-direction: column;
+position: absolute;
 left: 19.14%;
 right: 69.14%;
 top: 47.67%;
@@ -202,12 +189,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 32px;
-/* identical to box height, or 160% */
-
 text-align: center;
-
-/* Dark Gray */
-
 color: #343A40;
 
 }
@@ -223,7 +205,7 @@ bottom: 68.15%;
 
 
 .d3{
-    position: absolute;
+position: absolute;
 left: 36.33%;
 right: 52.89%;
 top: 47.67%;
@@ -234,12 +216,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 32px;
-/* identical to box height, or 160% */
-
 text-align: center;
-
-/* Dark Gray */
-
 color: #343A40;
 
 }
@@ -261,19 +238,13 @@ left: 54.06%;
 right: 37.27%;
 top: 47.67%;
 bottom: 59.24%;
-width: 100px;
 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 32px;
-/* identical to box height, or 160% */
-
 text-align: center;
-
-/* Dark Gray */
-
 color: #343A40;
 
 
@@ -290,26 +261,19 @@ bottom: 68.15%;
 
 
 .d5{
-    position: absolute;
+position: absolute;
 left: 69.69%;
 right: 19.69%;
 top: 47.67%;
 bottom: 59.24%;
-width: 120px;
 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 32px;
-/* identical to box height, or 160% */
-
 text-align: center;
-
-/* Dark Gray */
-
 color: #343A40;
-
 }
 
 .home {
@@ -333,12 +297,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 32px;
-/* identical to box height, or 160% */
-
 text-align: center;
-
-/* Dark Gray */
-
 color: #343A40;
 
 }
@@ -366,37 +325,22 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 16px;
-/* identical to box height, or 114% */
-
-
-/* white */
-
 color: #FFFFFF;
-
-
-/* Inside auto layout */
-
 flex: none;
 order: 0;
 flex-grow: 0;
 }
 
 .mb1 {
-    display: flex;
+display: flex;
 flex-direction: row;
-align-items: flex-start;
 padding: 12px 24px;
-gap: 4px;
 color: #FFFFFF;
-
 position: absolute;
 left: 4.92%;
 right: 88.2%;
 top: 53.59%;
 bottom: 49.04%;
-
-/* Bright Green */
-
 background: #28A745;
 border-radius: 54px;
 border:4.5px solid #28A745;
@@ -417,9 +361,6 @@ left: 21.56%;
 right: 71.56%;
 top: 53.59%;
 bottom: 49.04%;
-
-/* Bright Green */
-
 background: #28A745;
 border-radius: 54px;
 border:4.5px solid #28A745;
@@ -438,9 +379,6 @@ left: 38.28%;
 right: 54.84%;
 top: 53.59%;
 bottom: 49.04%;
-
-/* Bright Green */
-
 background: #28A745;
 border-radius: 54px;
 border:4.5px solid #28A745;
@@ -460,9 +398,6 @@ left: 54.92%;
 right: 38.2%;
 top: 53.59%;
 bottom: 49.04%;
-
-/* Bright Green */
-
 background: #28A745;
 border-radius: 54px;
 border:4.5px solid #28A745;
@@ -481,9 +416,6 @@ right: 21.56%;
 top: 53.59%;
 bottom: 49.04%;
 color: #FFFFFF;
-
-/* Bright Green */
-
 background: #28A745;
 border-radius: 54px;
 border:4.5px solid #28A745;
@@ -504,7 +436,6 @@ right: 4.84%;
 top: 53.59%;
 bottom: 49.04%;
 color: #FFFFFF;
-
 background: #28A745;
 border-radius: 54px;
 border:4.5px solid #28A745;
@@ -515,14 +446,14 @@ border:4.5px solid #28A745;
 
 .a3{
 position: absolute;
-left: 2%;
+left: 4.38%;
 right: 83.52%;
 top: 57.97%;
 bottom: 29.94%;
 width: 100px;
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 600;
+font-weight: 00;
 font-size: 24px;
 line-height: 32px;
 color: #343A40;
@@ -534,18 +465,11 @@ left: 4.88%;
 right: 88.28%;
 top: 81.75%;
 bottom: 12.74%;
-width: 150px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 24px;
-/* identical to box height, or 150% */
-
-
-/* Dark Gray */
-
 color: #343A40;
 }
 
@@ -563,11 +487,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 20px;
-/* or 143% */
-
-
-/* Dark Gray */
-
 color: #343A40;
 
 }
@@ -579,18 +498,12 @@ left: 27.5%;
 right: 59.06%;
 top: 81.75%;
 bottom: 12.74%;
-width: 250px;
 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 24px;
-/* identical to box height, or 150% */
-
-
-/* Dark Gray */
-
 color: #343A40;
 }
 
@@ -606,11 +519,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
-
-
-/* Dark Gray */
-
 color: #343A40;
 }
 
@@ -626,11 +534,6 @@ font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 24px;
-/* identical to box height, or 150% */
-
-
-/* Dark Gray */
-
 color: #343A40;
 
 }
@@ -648,11 +551,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 20px;
-/* or 143% */
-
-
-/* Dark Gray */
-
 color: #343A40;
 
 }
@@ -665,18 +563,12 @@ left: 78.75%;
 right: 14.3%;
 top: 81.75%;
 bottom: 12.74%;
-width: 250 px;
 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 24px;
-/* identical to box height, or 150% */
-
-
-/* Dark Gray */
-
 color: #343A40;
 
 }
@@ -685,20 +577,14 @@ color: #343A40;
     position: absolute;
 left: 78.75%;
 right: 13.75%;
-top: 88.85%;
+top: 84.85%;
 bottom: 7.96%;
-width: 256px;
 
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
-
-
-/* Dark Gray */
-
 color: #343A40;
 
 }
