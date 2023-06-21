@@ -1,3 +1,11 @@
+
+body {
+    background-color: #F5F5F5;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -45,16 +53,17 @@ h2{
 
 
 .maintains{
+    background-color: rgba(114, 114, 114, 0.2);
     height: 40px;
-    width: 100px;
+    width: 135px;
     border-radius: 40px;
     display: flex;
-    justify-content: space-between;
-    align-items: center
+    align-items: center;
+    flex-direction: row;
 }
 
 .payments{
-    margin-left: 32px;
+    margin-left: 35px;
     margin-top: 18px;
     margin-bottom: 18px;
 }
@@ -68,9 +77,14 @@ h2{
 
 h1{
 font-size: 14px;
-margin-left: 32px;
+margin-left: 8px;
 margin-top: 18px;
 margin-bottom: 18px;
+}
+.search,.setup,.help{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 24px;
 }
 
 .topright{
@@ -111,12 +125,13 @@ margin-bottom: 18px;
 }
 .toprightdiv{
     line-height: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
 
 h3{
-position: absolute;
-left: 4.38%;
+margin-left: 2.38%;
 right: 91.02%;
 top: 9.5%;
 bottom: 93.63%;
@@ -130,8 +145,7 @@ color: #024102;
 }
 
 h4{
-    position: absolute;
-left: 4.38%;
+margin-left: 2.38%;
 right: 82.03%;
 top: 20.96%;
 bottom: 83.44%;
@@ -144,177 +158,6 @@ line-height: 32px;
 width: 250px;
 color: #343A40;
 }
-
-.d1{
-    position: absolute;
-left: 4.38%;
-right: 87.66%;
-top: 47.67%;
-bottom: 59.24%;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 32px;
-text-align: center;
-color: #343A40;
-}
-
-
-
-
-
-.grave{
-position: absolute;
-left: 7.11%;
-right: 90.39%;
-top: 41.75%;
-bottom: 68.15%;
-
-}
-
-
-.d2{
-display: flex;
-flex-direction: column;
-position: absolute;
-left: 19.14%;
-right: 69.14%;
-top: 47.67%;
-bottom: 59.24%;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 32px;
-text-align: center;
-color: #343A40;
-
-}
-
-
-.bill{
-    position: absolute;
-left: 23.75%;
-right: 73.75%;
-top: 42.25%;
-bottom: 68.15%;
-}
-
-
-.d3{
-position: absolute;
-left: 36.33%;
-right: 52.89%;
-top: 47.67%;
-bottom: 59.24%;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 32px;
-text-align: center;
-color: #343A40;
-
-}
-
-
-.asd {
-    position: absolute;
-left: 40.47%;
-right: 57.03%;
-top: 42.25%;
-bottom: 68.15%;
-
-}
-
-
-.d4{
-    position: absolute;
-left: 54.06%;
-right: 37.27%;
-top: 47.67%;
-bottom: 59.24%;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 32px;
-text-align: center;
-color: #343A40;
-
-
-}
-
-.archive {
-    position: absolute;
-left: 57.11%;
-right: 40.39%;
-top: 42.25%;
-bottom: 68.15%;
-
-}
-
-
-.d5{
-position: absolute;
-left: 69.69%;
-right: 19.69%;
-top: 47.67%;
-bottom: 59.24%;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 32px;
-text-align: center;
-color: #343A40;
-}
-
-.home {
-    position: absolute;
-left: 73.50%;
-right: 26.50%;
-top: 42.25%;
-bottom: 47.92%;
-
-}
-
-.d6{
-    position: absolute;
-left: 86.64%;
-right: 3.2%;
-top: 47.67%;
-bottom: 59.24%;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 32px;
-text-align: center;
-color: #343A40;
-
-}
-
-.sidebar {
-    position: absolute;
-left: 90.47%;
-right: 7.03%;
-top: 42.25%;
-bottom: 47.92%;
-}
-
-
-
-
-
-
 
 .a1{
     width: 40px;
@@ -331,296 +174,97 @@ order: 0;
 flex-grow: 0;
 }
 
-.mb1 {
-display: flex;
-flex-direction: row;
+.mb {
 padding: 12px 24px;
 color: #FFFFFF;
-position: absolute;
-left: 4.92%;
-right: 88.2%;
-top: 53.59%;
-bottom: 49.04%;
+
 background: #28A745;
 border-radius: 54px;
 border:4.5px solid #28A745;
 }
 
+#container-one{
+    height: auto;
+    border-radius: 8px;
+    align-items: center;
+    border: 0px solid;
+    background-color:  #FFFFFF;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
 
 
-.mb2{
+.one,
+.two {
     display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 12px 24px;
-gap: 4px;
-color: #FFFFFF;
-
-position: absolute;
-left: 21.56%;
-right: 71.56%;
-top: 53.59%;
-bottom: 49.04%;
-background: #28A745;
-border-radius: 54px;
-border:4.5px solid #28A745;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
 }
 
-.mb3{
+.one {
+    border-left: 1px solid grey;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    padding-right: 10px;
+    padding-left: 45px;
+}
+.grave {
+    /* width: 26.67px; */
+   align-items: center;
+}
+
+
+
+#main{
     display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 12px 24px;
-gap: 4px;
-color: #FFFFFF;
-
-position: absolute;
-left: 38.28%;
-right: 54.84%;
-top: 53.59%;
-bottom: 49.04%;
-background: #28A745;
-border-radius: 54px;
-border:4.5px solid #28A745;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 43px;
+    margin-right: 43px;
+    justify-content: space-between;
 }
 
-
-.mb4{
-    display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 12px 24px;
-gap: 4px;
-color: #FFFFFF;
-
-position: absolute;
-left: 54.92%;
-right: 38.2%;
-top: 53.59%;
-bottom: 49.04%;
-background: #28A745;
-border-radius: 54px;
-border:4.5px solid #28A745;
+.section-two {
+    background-color: #FFFFFF;
+    border: 0px solid;
+    border-radius: 8px;
+    height: 164px;
+    width: 250px;
+    gap: 15px;
 }
 
-.mb5{
-    display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 12px 24px;
-gap: 4px;
-
-position: absolute;
-left: 71.56%;
-right: 21.56%;
-top: 53.59%;
-bottom: 49.04%;
-color: #FFFFFF;
-background: #28A745;
-border-radius: 54px;
-border:4.5px solid #28A745;
+.efg{
+    font-size: 16px;
+    margin-top: 16px;
+    margin-left: 24px;
 }
-
-
-
-.mb6{
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 12px 24px;
-gap: 4px;
-
-position: absolute;
-left: 88.28%;
-right: 4.84%;
-top: 53.59%;
-bottom: 49.04%;
-color: #FFFFFF;
-background: #28A745;
-border-radius: 54px;
-border:4.5px solid #28A745;
+.ooo,
+.yes{
+    margin-left: 24px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.img-one{
+    height: 20px;
+    width: 20px;
+    margin-top: 24px;
+    margin-right: 252px;
+    margin-left: 24px;
 }
 
 
 
 
-.a3{
-position: absolute;
-left: 4.38%;
-right: 83.52%;
-top: 57.97%;
-bottom: 29.94%;
-width: 100px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 00;
-font-size: 24px;
-line-height: 32px;
-color: #343A40;
-}
-
-.x1{
-    position: absolute;
-left: 4.88%;
-right: 88.28%;
-top: 81.75%;
-bottom: 12.74%;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-color: #343A40;
-}
-
-
-.y1{
-    position: absolute;
-left: 4.88%;
-right: 86.09%;
-top: 84.54%;
-bottom: 5.1%;
-width: 150px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-color: #343A40;
-
-}
-
-
-.x2{
-    position: absolute;
-left: 27.5%;
-right: 59.06%;
-top: 81.75%;
-bottom: 12.74%;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-color: #343A40;
-}
-
-.y2{
-    position: absolute;
-left: 27.5%;
-right: 53.83%;
-top: 84.54%;
-bottom: 8.28%;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-color: #343A40;
-}
-
-.x3{
-    position: absolute;
-left: 53.12%;
-right: 33.12%;
-top: 81.75%;
-bottom: 12.74%;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-color: #343A40;
-
-}
-
-
-.y3{
-    position: absolute;
-left: 53.12%;
-right: 32.81%;
-top: 84.85%;
-bottom: 4.78%;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-color: #343A40;
-
-}
 
 
 
-.x4{
-position: absolute;
-left: 78.75%;
-right: 14.3%;
-top: 81.75%;
-bottom: 12.74%;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-color: #343A40;
-
-}
-
-.y4{
-    position: absolute;
-left: 78.75%;
-right: 13.75%;
-top: 84.85%;
-bottom: 7.96%;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-color: #343A40;
-
-}
 
 
-.ic {
-    position: absolute;
-left: 4.88%;
-right: 91.56%;
-top: 76.75%;
-bottom: 19.11%;
-}
-
-.bill2 {
-    position: absolute;
-left: 27.5%;
-right: 70.94%;
-top: 76.75%;
-bottom: 19.11%;
-
-}
 
 
-.ic2 {
-    position: absolute;
-left: 53.12%;
-right: 45.31%;
-top: 76.75%;
-bottom: 19.11%;
 
-}
 
-.archive2 {
-    position: absolute;
-left: 78.75%;
-right: 19.69%;
-top: 76.75%;
-bottom: 19.11%;
-}
