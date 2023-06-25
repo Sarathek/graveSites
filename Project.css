@@ -177,6 +177,21 @@ width: 250px;
 color: #343A40;
 }
 
+.a1{
+    width: 40px;
+height: 16px;
+background-color: #024102;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
 .mb {
 padding: 12px 24px;
 color: #FFFFFF;
