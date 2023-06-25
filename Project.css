@@ -1,5 +1,4 @@
-
-body {
+body{
     background-color: #F5F5F5;
     width: 100%;
     margin-top: 0;
@@ -22,7 +21,6 @@ header > div {
     align-items: center;
 }
 
-
 .logo{
     margin-left: 43px;
     margin-top: 12px;
@@ -31,10 +29,9 @@ header > div {
     width: 32px;
 }
 
-#downarrow {
+#downarrow{
     width:10px;
 }
-
 
 h2{
     margin: 16px;
@@ -42,37 +39,34 @@ h2{
     font-size: 16px;
 }
 
-
-.maintain
-{
-    margin-left: 23px;
-    margin-top: 18px;
-    margin-bottom: 18px;
-}
-
-
-
-.maintains{
-    background-color: rgba(114, 114, 114, 0.2);
-    height: 40px;
-    width: 135px;
-    border-radius: 40px;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
-.payments{
+.maintain{
     margin-left: 35px;
     margin-top: 18px;
     margin-bottom: 18px;
 }
 
-
-    .reports{
-    margin-left: 32px;
+.payment{
+    margin-left: 25px;
     margin-top: 18px;
     margin-bottom: 18px;
+}
+
+.report{
+    margin-left:3px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.reports{
+    background-color: rgba(144, 144, 144, 0.2);
+    height: 40px;
+    width: 100px;
+    border-radius: 40px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 h1{
@@ -81,7 +75,31 @@ margin-left: 8px;
 margin-top: 18px;
 margin-bottom: 18px;
 }
-.search,.setup,.help{
+
+.search{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 16px;
+}
+
+.setup{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.setups{
+    background-color: rgba(144, 144, 144, 0.2);
+    border-radius: 44px;
+    height: 40px;
+    width: 40px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.help{
     margin-top: 18px;
     margin-bottom: 18px;
     margin-right: 24px;
